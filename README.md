@@ -1,0 +1,2 @@
+# TM4C129WithADS131M04
+Using EK-TM4C129EXL to communicate with ADS131M04EVM
