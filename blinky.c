@@ -85,6 +85,10 @@ main(void)
     //
     // Loop forever.
     //
+
+    // start ADC
+    adcStartup();
+
     while(1)
     {
     
@@ -96,7 +100,7 @@ main(void)
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 500000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < 200000; ui32Loop++)
         {
         }
 
@@ -108,10 +112,9 @@ main(void)
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 500000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < 200000; ui32Loop++)
         {
         }
-    
-    
+
     }
 }
